@@ -2,6 +2,8 @@
     font-family: 'PT Sans', sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 72%, rgba(148, 187, 233, 1) 100%);
@@ -249,15 +251,16 @@ img {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-/*     background-color: bisque; */
+    /*     background-color: bisque; */
 }
+
 .container1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-/*     background-color: bisque; */
+    /*     background-color: bisque; */
 }
 
 
@@ -318,7 +321,7 @@ img {
 
 }
 
-.item2{
+.item2 {
     background-color: antiquewhite;
     padding: 1rem;
     display: grid;
@@ -499,3 +502,52 @@ img {
     transform: scale(1.1);
 }  */
 
+--------------------------------- BOOTSTRAP .titulos1 {
+    width: 50%;
+    margin-top: .4rem;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 2rem;
+    color: rgb(41, 48, 41);
+    background-color: pink;
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    flex-direction: row;
+    /*     grid-area: titulo; */
+}
+
+h5 {
+    color: black;
+}
+
+.imgbootstrap {
+    width: 50%;
+    padding: 1rem;
+    /*  margin-left: 25%;
+    margin-right: 25%; */
+    margin-top: 5%;
+    background-color: #E1E1E1;
+    /* display: flex; */
+    justify-content: center;
+    flex-direction: row;
+    /* Le asigno el lugar en la grilla con el
+        nombre correspondiente */
+    grid-area: img;
+
+    /* Atributos de diseño */
+    display: block;
+    margin: auto;
+}
+
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/* .TitleContainer {
+    font-family: 'PT Sans', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+    
+} */
