@@ -420,37 +420,6 @@ img {
     animation-delay: 6s;
 }
 
-.card {
-    animation-duration: 3s;
-    animation-name: mymove;
-    animation: mymove 4s infinite;
-    animation-delay: 6s;
-}
-
-/* .card {
-    animation-name: mymove;
-    animation-duration: 5s; 
-    animation-timing-function: ease-out; 
-    animation-delay: 0s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-fill-mode:none;
-    animation-play-state: running; 
-} */
-.card1 {
-    animation-duration: 3s;
-    animation-name: mymove;
-    animation: mymove 4s infinite;
-    animation-delay: 6s;
-}
-
-.card2 {
-    animation-duration: 3s;
-    animation-name: mymove;
-    animation: mymove 4s infinite;
-    animation-delay: 6s;
-}
-
 
 @keyframes mymove {
     from {
@@ -462,47 +431,8 @@ img {
     }
 }
 
-/* 
-.img6 {
-    grid-area: img3;
-    width: 100%;
-    display: flex;
-    display: inline-block;
-    color: white; 
-    font-weight: 600;
-    padding: 4rem;
-    transition: 1.5s;
-}
-
-.img6:hover {
-    background-color: darksalmon;
-    padding: 2rem;
-    transform: scale(1.1);
-    animation-duration: 3s;
-    animation-name: mymove;
-    animation: mymove 4s infinite;
-    animation-delay: 6s;
-}
-
-
-.img7{
-    grid-area: img3;
-    width: 100%;
-    display: grid;
-    display: inline-block;
-    color: white;
-    font-weight: 600;
-    padding: 4rem;
-    transition: 1.5s;
-}
-
-.img7:hover {
-    background-color: darksalmon;
-    padding: 2rem;
-    transform: scale(1.1);
-}  */
-
---------------------------------- BOOTSTRAP .titulos1 {
+--------------------------------- BOOTSTRAP
+.titulos1 {
     width: 50%;
     margin-top: .4rem;
     align-items: center;
@@ -545,9 +475,3 @@ h5 {
 }
 
     @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-
-/* .TitleContainer {
-    font-family: 'PT Sans', sans-serif;
-    @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-    
-} */
